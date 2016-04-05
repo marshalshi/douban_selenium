@@ -67,7 +67,6 @@ except Exception, e:
     sys.exit(-1)
 
 while True:
-    sleep(1.5)
     try:
         current_page = driver.find_element_by_class_name('curr-page')
         need_buy = current_page.find_element_by_class_name('rating-form')
